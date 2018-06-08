@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>JS Callbacks</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Text Value</legend>
+                <label>Position:</label>
+                <input type="text" name="position" value="" />
+                <label>Company:</label> 
+                <input type="text" name="position" value="" />
+            </fieldset>
+            <fieldset>
+                <legend>Radio Value</legend>
+                <label><em>Department</em></label><br />
+                FIELD: <input type="radio" name="department" value="Field" checked="checked" /><br />
+                ITOPS: <input type="radio" name="department" value="IT Operations" /><br />
+                SALES: <input type="radio" name="department" value="Sales" /><br />
+                MGMT: <input type="radio" name="department" value="Management" />
+            </fieldset>
+            <button type="button" onclick="saveTextValue()">Save Text</button>
+            <button type="button" onclick="saveRadioValue()">Save Radio</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
